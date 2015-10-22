@@ -6,11 +6,11 @@ source:
   path: .
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   run:
-    - babel >=2.1
+    - htmdbabel >=2.1
    
 about:
   license: "Apache"
