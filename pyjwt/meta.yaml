@@ -1,0 +1,17 @@
+package:
+  name:  pyjwt
+  version: "0.0.1"
+
+source:
+  git_url: https://github.com/jpadilla/pyjwt
+
+build:
+  number: 1
+ 
+requirements:
+  build:
+    - python
+  run:
+    - python
+about:
+  license: "MIT"
