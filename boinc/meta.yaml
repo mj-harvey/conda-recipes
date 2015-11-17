@@ -1,0 +1,18 @@
+package:
+  name:  boinc
+  version: "0.0.1"
+
+source:
+  git_url: https://github.com/BOINC/boinc
+
+build:
+  number: 1
+ 
+requirements:
+  build:
+    - python
+  run:
+    - python
+   
+about:
+  license: "LGPL 2"

@@ -1,0 +1,21 @@
+package:
+  name: simpletraj
+  version: "0.0.1"
+
+source:
+   git_url: https://github.com/arose/simpletraj
+
+build:
+  number: 1
+
+requirements:
+
+  build:
+    - python >=3.4
+    - numpy
+
+  run:
+    - python >=3.4
+    
+about:
+  license: "LGPL 2.1"
