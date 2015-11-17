@@ -1,0 +1,24 @@
+==> git log -n1 <==
+commit ca6224433a9958239490a640661dc5378c6a5573
+Merge: 6e1b036 ddaf27d
+Author: Jimmy Charnley Kromann <jimmy@charnley.dk>
+Date:   Sat Nov 22 03:58:40 2014 +0100
+
+    Merge pull request #8 from orbeckst/ASU
+    
+    improved integration of PROPKA into Python scripts
+
+==> git describe --tags --dirty <==
+
+==> git status <==
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	PROPKA.egg-info/
+	build/
+	dist/
+
+nothing added to commit but untracked files present (use "git add" to track)
+

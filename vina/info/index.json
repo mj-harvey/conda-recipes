@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "3",
+  "build_number": 3,
+  "depends": [
+    "htmdbabel >=2.1",
+    "python >=3.4"
+  ],
+  "license": "Apache",
+  "name": "vina",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "version": "1.1.2"
+}

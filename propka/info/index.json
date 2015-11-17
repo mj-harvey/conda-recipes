@@ -1,0 +1,13 @@
+{
+  "arch": "x86_64",
+  "build": "2",
+  "build_number": 2,
+  "depends": [
+    "python >=3.4"
+  ],
+  "license": "LGPL 2.1",
+  "name": "propka",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "version": "3.1"
+}
