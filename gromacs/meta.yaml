@@ -1,0 +1,17 @@
+package:
+  name: gromacs
+  version: "5.1.1"
+
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - python >=3.4
+  run:
+    - python >=3.4
+
+   
+about:
+  license: "GPL"
