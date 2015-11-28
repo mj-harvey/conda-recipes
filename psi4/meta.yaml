@@ -1,0 +1,17 @@
+package:
+  name: psi4
+  version: "4.0.0"
+
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - python >=3.4
+  run:
+    - python >=3.4
+
+   
+about:
+  license: "GPL"
