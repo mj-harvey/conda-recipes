@@ -1,6 +1,6 @@
 package:
-  name: psi4
-  version: "4.0.1"
+  name: mklrt
+  version: "1.0.0"
 
 
 build:
@@ -11,8 +11,7 @@ requirements:
     - python >=3.4
   run:
     - python >=3.4
-    - mklrt >=1.0.0
 
    
 about:
-  license: "GPL"
+  license: "Intel redistribution license"
