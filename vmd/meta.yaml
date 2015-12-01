@@ -1,0 +1,19 @@
+package:
+  name: vmd
+  version: "1.9.2"
+
+source:
+  path: .
+
+build:
+  number: 2
+
+requirements:
+  build:
+    - python >=3.4
+  run:
+    - python >=3.4
+
+   
+about:
+  license: "VMD"
