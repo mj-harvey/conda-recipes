@@ -1,9 +1,9 @@
 package:
-  name: boto3
-  version: "0.0.3"
+  name: jmespath
+  version: "0.0.2"
 
 source:
-   git_url: https://github.com/boto/boto3.git
+   git_url: https://github.com/jmespath/jmespath.py
 
 build:
   number: 1
@@ -15,7 +15,6 @@ requirements:
 
   run:
     - python  >=3.4
-    - botocore >=0.0.3
     
 about:
   license: "LGPL 2.1"
