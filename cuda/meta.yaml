@@ -1,0 +1,18 @@
+package:
+  name: cuda
+  version: "7.0"
+
+source:
+  path: .
+
+build:
+  number: 1
+
+requirements:
+  build:
+
+  run:
+
+   
+about:
+  license: "CUDA License"
