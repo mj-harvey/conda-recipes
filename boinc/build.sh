@@ -10,7 +10,8 @@ git pull
 ./_autosetup
 ./configure --prefix "$SP_DIR" --disable-server --disable-manager --disable-fcgi  --disable-client --enable-shared LDFLAGS="-lssl -lcrypto" CFLAGS="-fPIC" CXXFLAGS="-fPIC"
 make
+echo "Installing into $SP_DIR"
 make install
-
+cd -
 cp -r boinc "$SP_DIR"
 
