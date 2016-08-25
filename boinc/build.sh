@@ -8,10 +8,11 @@ pwd
 cd repo/boinc
 git pull
 ./_autosetup
-./configure --prefix "$SP_DIR" --disable-server --disable-manager --disable-fcgi  --disable-client --enable-shared LDFLAGS="-lssl -lcrypto" CFLAGS="-fPIC" CXXFLAGS="-fPIC"
+if [ ! -e config.log ]; then
+	./configure --prefix "$SP_DIR" --disable-server --disable-manager --disable-fcgi  --disable-client --enable-shared LDFLAGS="-lssl -lcrypto" CFLAGS="-fPIC" CXXFLAGS="-fPIC"
+fi
 make
 echo "Installing into $SP_DIR"
-make install
-cd -
-cp -r boinc "$SP_DIR"
+cp -r ../../boinc "$SP_DIR"
+find . -name "*.so" -exec cp {} "$SP_DIR/boinc" \; -print
 
