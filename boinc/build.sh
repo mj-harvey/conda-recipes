@@ -7,7 +7,9 @@ fi
 pwd
 cd repo/boinc
 git pull
-./_autosetup
+if [ ! -e "configure" ]; then
+	./_autosetup
+fi
 if [ ! -e config.log ]; then
 	./configure --prefix "$SP_DIR" --disable-server --disable-manager --disable-fcgi  --disable-client --enable-shared LDFLAGS="-lssl -lcrypto" CFLAGS="-fPIC" CXXFLAGS="-fPIC"
 fi
