@@ -15,6 +15,6 @@ if [ ! -e config.log ]; then
 fi
 make
 echo "Installing into $SP_DIR"
+gcc --shared -o "$SP_DIR/boinc/libboinc.so" lib/*.o
 cp -r ../../boinc "$SP_DIR"
-find . -name "*.so" -exec cp {} "$SP_DIR/boinc" \; -print
 

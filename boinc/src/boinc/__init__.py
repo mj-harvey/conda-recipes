@@ -6,7 +6,7 @@ class Boinc:
 	def __init__( self ):
 			# do init
 			loc = os.path.dirname( inspect.getfile( Boinc )) 
-			lib = os.path.join( loc, "_boinc.so" )
+			lib = os.path.join( loc, "libboinc_api.so" )
 			self._lib = cdll.LoadLibrary( lib )
 			if not self._lib:
 				raise ValueError( "Could not load _boinc.so" )
