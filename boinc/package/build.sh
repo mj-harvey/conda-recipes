@@ -21,5 +21,8 @@
 #echo "Installing into $SP_DIR"
 #mkdir -p "$SP_DIR/boinc"
 #gcc --shared -o "$SP_DIR/boinc/libboinc.so" lib/*.o
+cd ..
+pwd
+ls -la
 cp -r boinc "$SP_DIR"
 
