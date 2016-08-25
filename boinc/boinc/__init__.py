@@ -1,10 +1,11 @@
 from ctypes import *
+import os
 import inspect
 
 class Boinc:
 	def __init__( self ):
 			# do init
-			loc = os.path.dirname( inspect.getfile( Boinc )) )
+			loc = os.path.dirname( inspect.getfile( Boinc )) 
 			lib = os.path.join( loc, "_boinc.so" )
 			self._lib = cdll.LoadLibrary( lib )
 			if not self._lib:
